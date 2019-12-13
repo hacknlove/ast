@@ -46,7 +46,7 @@ function App() {
         return
       case 'c':
         audio.play();
-        setstatus('CLAPS')    
+        setstatus('CLAPS')
         break
       default:
         console.log(key)
@@ -102,7 +102,7 @@ function App() {
       return (
         <form id="app" className="form" onSubmit={start}>
           <div>
-            <img src="/logo.png"/>
+            <img src="logo.png"/>
             <input type="number" value={green.toFixed(0)} onChange={e => setgreen(+e.target.value % 100)}/>
             <span>Minutes</span>
           </div>

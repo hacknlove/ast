@@ -10,19 +10,6 @@
   cursor: none;
 }
 
-#help {
-  background-color: #f7af0f;
-  position: fixed;
-  bottom:0;
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  color: #ce3c17;
-}
-b {
-  font-size: 130%;
-}
-
 #app.form {
   background-color: white;
   cursor: default;
@@ -64,10 +51,10 @@ button.start {
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
 -webkit-appearance: none;
-margin: 0;}             
+margin: 0;}
 
 
-/* for mozilla */  
+/* for mozilla */
 input[type=number] {-moz-appearance: textfield;}
 
 
@@ -84,4 +71,18 @@ input[type=number] {-moz-appearance: textfield;}
 #app.CLAPS,#app.ok {
   background-color: black;
   color: white;
+}
+
+@media (max-width: 600px) {
+  #app.form>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  span {
+    top: 0
+  }
+  input {
+    text-align: center;
+  }
 }
