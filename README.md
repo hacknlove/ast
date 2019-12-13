@@ -25,11 +25,11 @@ Your device should have a keyboard.
 If you would rather like to cronometer yourself the time, and use the application only to show the colors:
 
 1. open: https://hacknlove.github.io/ast/
-2. press 's' to **S**tart
-3. press 'e' anytime to **E**nd
-4. press 'g' to change to **G**reen status
-5. press 'y' to change to **Y**ellow status
-6. press 'r' to change to **R**ed status
-7. press 'c' to change to **C**laps status
-8. press 'f' to go to **F**ullscreen mode
-9. press 'escape' to exit from fullscreen mode
+2. press `s` to **S**tart
+3. press `e` anytime to **E**nd
+4. press `g` to change to **G**reen status
+5. press `y` to change to **Y**ellow status
+6. press `r` to change to **R**ed status
+7. press `c` to change to **C**laps status
+8. press `f` to go to **F**ullscreen mode
+9. press `escape` to exit from fullscreen mode
